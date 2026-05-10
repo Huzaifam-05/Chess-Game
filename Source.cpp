@@ -1,4 +1,6 @@
 ﻿#include "chess.h"
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -6,11 +8,8 @@ int main()
 
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
-
     system("chcp 65001 > nul");
-
     ios::sync_with_stdio(false);
-
     Board b;
     b.startScreen();
     b.start();
